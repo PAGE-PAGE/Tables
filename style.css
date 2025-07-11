@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+div,
+p {
+    margin: 0;
+}
+
+body {
+    font-size: 55px;
+    height: 100vh;
+    padding: 35px 143px 95px;
+    font-family: 'StratosSkyeng', sans-serif;
+    color: #fff;
+    background: linear-gradient(130deg, rgba(173, 97, 255, 1) 0%, rgba(134, 119, 255, 1) 45%, rgba(0, 193, 255, 1) 100%);
+    
+}
+td {
+    background-color: cornflowerblue;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+th {
+
+    background-color: blueviolet;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+table{
+    font-size: 66px;
+}
+ol {
+    font-size: 38px;
+}
+.gradient-text { font-size: 72px; background-image: linear-gradient(to right, #f3f3f3, #7402ff); -webkit-background-clip: text; color: transparent; /* Дополнительное оформление */ letter-spacing: 2px; padding: 20px; }
